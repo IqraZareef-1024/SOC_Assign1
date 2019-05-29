@@ -1,0 +1,19 @@
+<html>
+    <title>index4</title>
+    <h1>Browser-Modifiable Adaptable Window</h1>
+ <head>
+<script>
+       function display()
+       {
+        document.getElementById("demo").src=document.getElementById("tf1").value;
+       }
+    </script> 
+    </head>
+    <body>
+        <form name='f1'>
+            Website<input type='text' name='tf1' id='tf1'><br><br>
+            <input type="button" name='b1' value= "GO" onclick="display()"><br><br>
+            <iframe id="demo" src="https://www.google.com/webhp?igu=1" name="iframe_a"></iframe>    
+            </form>
+    </body>
+ </html>
